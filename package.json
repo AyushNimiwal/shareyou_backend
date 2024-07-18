@@ -4,9 +4,6 @@
   "description": "a backend mega project",
   "type": "module",
   "main": "index.js",
-  "engines": {
-    "node":">=20.14.0"
-  },
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
