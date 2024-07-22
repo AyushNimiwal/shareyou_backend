@@ -4,7 +4,6 @@
   "description": "a backend mega project",
   "type": "module",
   "main": "index.js",
-  "proxy":"http://localhost:5173",
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
