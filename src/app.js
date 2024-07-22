@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser";
 const app = express();
 
 app.use(cors({
-    origin: "https://http://localhost:5173" || "https://shareyou-tau.vercel.app" || process.env.CORS_ORIGIN,
+    origin: "https://localhost:5173" || "https://shareyou-tau.vercel.app" || process.env.CORS_ORIGIN,
     credentials: true
 }))
 
